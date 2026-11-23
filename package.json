@@ -1,0 +1,14 @@
+{
+  "name": "qrcode-with-logo",
+  "version": "1.0.0",
+  "description": "Generate QR codes with a centered logo",
+  "main": "generate-qrcode.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-qrcode.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5"
+  }
+}
